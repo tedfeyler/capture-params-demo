@@ -13,6 +13,12 @@ agent_endpoint_port=
 Have on your machine a setup that can run `docker-compose`.
 Docker for Mac may not work due to some missing capabilities (although I have not tried recently), `docker-machine` works remarkably well though.
 
+## Build
+
+```bash
+./mvnw clean package docker:build
+```
+
 ## Run
 
 The demo is started with:
